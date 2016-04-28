@@ -1,0 +1,14 @@
+<ul class="media-list">
+    <li class="media" ng-repeat="pizza in pizzas">
+        <a class="plain-link" href="#">
+            <div class="media-left">
+                <img class="media-object" ng-src="../{{pizza.img_url}}" alt="{{pizza.img_alt}}">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><strong>{{pizza.nome_pizza}}</strong></h4>
+                <p>{{pizza.nome_pizzeria}}</p>
+            </div>
+        </a>
+        <hr/>
+    </li>
+</ul>
