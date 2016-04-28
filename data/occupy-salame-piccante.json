@@ -1,0 +1,8 @@
+{
+  "id" : "occupy-salame-piccante",
+  "nome_pizza": "Salame piccante",
+  "nome_pizzeria": "Occupy",
+  "rating": 5,
+  "img_url" : "images/pizza/occupy-salame-piccante.jpg",
+  "img_alt" : "Salame piccante di Occupy"
+}

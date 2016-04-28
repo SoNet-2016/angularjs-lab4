@@ -1,11 +1,11 @@
 'use strict';
 
-angular.module('myApp.pizzaView', ['ngRoute','myApp.pizza'])
+angular.module('myApp.detailsView', ['ngRoute','myApp.pizza'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/pizzaView', {
-    templateUrl: 'pizzaView/pizzaView.html',
-    controller: 'pizzaViewCtrl'
+  $routeProvider.when('/pizzas/:pizzaId', {
+    templateUrl: 'detailsView/detailsView.html',
+    controller: 'detailsViewCtrl'
   });
 }])
 //Inline Array Annotation
@@ -13,9 +13,9 @@ angular.module('myApp.pizzaView', ['ngRoute','myApp.pizza'])
     // followed by the function itself.
     //When using this type of annotation, take care to keep the annotation array
     // in sync with the parameters in the function declaration.
-.controller('pizzaViewCtrl', ['$scope', 'Pizza',
-    function($scope, Pizza) {
-        Pizza.getData('pizzas').then(function(data) {
-            $scope.pizzas = data;
+.controller('detailsViewCtrl', ['$scope', '$routeParams', 'Pizza',
+    function($scope, $routeParams, Pizza) {
+        Pizza.getData($routeParams.pizzaId).then(function(data) {
+            $scope.pizza = data;
         });
     }]);

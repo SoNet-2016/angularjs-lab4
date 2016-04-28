@@ -1,0 +1,8 @@
+{
+  "id" : "amici-nostri-margherita",
+  "nome_pizza": "Margherita",
+  "nome_pizzeria": "Amici Nostri",
+  "rating": 3,
+  "img_url" : "images/pizza/amici-nostri-margherita.jpg",
+  "img_alt" : "Margherita di Amici Nostri"
+}

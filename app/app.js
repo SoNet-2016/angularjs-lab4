@@ -4,7 +4,8 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.pizza',
-  'myApp.pizzaView'
+  'myApp.pizzaView',
+  'myApp.detailsView'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/pizzaView'});

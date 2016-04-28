@@ -1,0 +1,8 @@
+{
+  "id" : "amici-nostri-diavola",
+  "nome_pizza": "Diavola",
+  "nome_pizzeria": "Amici Nostri",
+  "rating": 4,
+  "img_url" : "images/pizza/amici-nostri-diavola.jpg",
+  "img_alt" : "Diavola di Amici Nostri"
+}

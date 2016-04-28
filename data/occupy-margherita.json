@@ -1,0 +1,8 @@
+{
+  "id" : "occupy-margherita",
+  "nome_pizza": "Margherita",
+  "nome_pizzeria": "Occupy",
+  "rating": 3,
+  "img_url" : "images/pizza/occupy-margherita.jpg",
+  "img_alt" : "Margherita di Occupy"
+}

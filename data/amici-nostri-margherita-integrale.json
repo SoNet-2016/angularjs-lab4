@@ -1,0 +1,8 @@
+{
+  "id" : "amici-nostri-margherita-integrale",
+  "nome_pizza": "Margherita (integrale)",
+  "nome_pizzeria": "Amici Nostri",
+  "rating": 5,
+  "img_url" : "images/pizza/amici-nostri-margherita-integrale.jpg",
+  "img_alt" : "Margherita (integrale) di Amici Nostri"
+}
